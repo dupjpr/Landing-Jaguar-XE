@@ -1,0 +1,55 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../imagenes/jaguar-xe.jpg);
+    background-size: cover;   
+    background-position-y: center;
+    background-position-x: center;
+    background-attachment: fixed;  
+}
+.msn{
+    width: auto;
+    height: auto;
+    background-color: rgba(10, 10, 10, 0.7);
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 8%;
+    margin-top: 6%;
+    margin-right: 8%;
+    transition: margin-right ease 2s;
+}
+.msn div a{
+    font-size: 15px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background: #DB3030;
+    color: white;
+}
+.msn div{
+    margin-top: 30px;
+}
+@media(min-width: 600px){
+.msn{
+    width: 600px;
+    height: auto;
+    background-color: rgba(10, 10, 10, 0.7);
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 8%;
+    margin-top: 6%;
+}
+.msn div a{
+    font-size: 15px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background: #DB3030;
+    color: white;
+}
+.msn div{
+    margin-top: 30px;
+}
+}
